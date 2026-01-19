@@ -204,7 +204,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ Group ♻️', url='https://t.me/movie_flickss')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_text("𝙷𝙴Y Ɲꫀꫀℓî HERE!!! ") 
+        m=await message.reply_text("Hey 👋,𝙏𝙊𝙑𝙄𝙉𝙊 Here !!! ") 
         await asyncio.sleep(1.2)
         await m.delete()
         await message.reply_photo(
